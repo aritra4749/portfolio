@@ -1,0 +1,364 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.hero{
+  width: 100%;
+  height: 100vh;
+  background: #000000;
+}
+.picnew{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position:absolute;
+  overflow: hidden;
+  top:9%;
+}
+.picnew img{
+  margin: 20px 50px;
+  /* position: absolute;
+  overflow: hidden; */
+  width: 400px;
+  height: 600px;
+  border-radius: 50%;
+
+}
+
+nav{
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+  width: fit-content;
+  height: fit-content;
+  margin: 10px;
+  /* padding: 10px; */
+  align-items: center;
+  justify-content: space-between;
+  left: 55%;
+  /* margin-bottom: 10px; */
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+  position: static;
+  overflow: hidden;
+}
+nav ul li a{
+ color: #ffff;
+ text-decoration: none;
+ font-weight: bold;
+}
+
+nav ul li a:hover{
+ color: rgb(247, 255, 13);
+ transition: all 0.4s  ease 0s;
+}
+
+/* .Detail{
+  position: absolute;
+    padding-left: 75%;
+    padding-top: 15%;
+} */
+.Detail span{
+  /* display: block; */
+  font-size: 40px;
+  /* margin-block-start: 0.83em;
+  margin-block-end: 0.83em; */
+  font-weight: bold;
+  color: orange;
+  text-align: right;
+  margin-bottom: 15px;
+
+}
+.Detail p{
+  color: #ffff;
+  font-size: larger;
+  text-align: right;
+  margin-top: 20px;
+}
+.Detail {
+  /* padding-right:1px; */
+  /* text-align: right; */
+  margin:50px;
+  width: 60%;
+}
+.About{
+  width: 100%;
+  height: 100vh;
+  background-image: url(image/poi.png);
+  background-repeat: no-repeat;
+  background-size:50% 100%;
+  background-color: #000000;
+  background-position: right center;
+}
+.part{
+  width: 50%;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  top:20%;
+}
+.part h1{
+  color: orange;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+.part p{
+  color: white;
+  font-size: 20px;
+  text-align: justify;
+}
+.p3{
+  width:100%;
+  height: 100vh;
+  background-color: #000000;
+}
+.Skills{
+  background-image: url(image/lee-campbell-DtDlVpy-vvQ-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  /* background-position: top left; */
+  background-color: #000000;
+  /* opacity: 0.85;  */
+  /* border:2px solid white; */
+}
+.part2 h1{
+  color: orange;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  left: 2%;
+  top:8%;
+  font-size: 45px;
+  margin-bottom: 10px;
+  width: fit-content;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  overflow: hidden;
+  top: 20%;
+  left: 10%;
+  border: none;
+  width: 90%;
+  height: fit-content;
+}
+.logoc i,.logod i,.logog i{
+  font-size: 50px;
+  color: white;
+  margin-bottom: 50px;
+}
+.logoc,.logod,.logog{
+  color: yellowgreen;
+  font-size: x-large;
+  font-size: bold;
+}
+.logoc ul li,.logod ul li,.logog ul li{
+  margin-bottom: 10px;
+}
+.work{
+  background-color: #000000;
+  background-image: url(image/pompom.jpg);
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.workh h1{
+  color: orange;
+  font-size: 40px;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+.work img{
+  position:relative;
+  overflow: hidden;
+  width:515px;
+  height: 350px;
+  top: 16%;
+  left:32.5%;
+  border-radius: 10px;
+}
+#clone {
+  color: white;
+  font-size: 30px;
+  left: 10%;
+  bottom: 25%;
+  position: relative;
+  overflow: hidden;
+  width: fit-content;
+  font-style: oblique;
+}
+.endpage{
+  width: 100%;
+  height: 100vh;
+  /* background: black; */
+  background-image: url(image/rer.jpg);
+}
+.contact h1{
+  color: orange;
+  text-align: left;
+  font-size: 40px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.contact p{
+  color: white;
+  font-size: larger;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  position: relative;
+  overflow: hidden;
+  left:3%;
+}
+.contact form{
+  overflow: hidden;
+  position: relative;
+  top: 30%;
+  /* left: 40%; */
+  margin-bottom: 10px;
+  font-size: medium;
+  width:40%;
+  height: fit-content;
+  /* margin: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px; */
+    /* box-sizing: border-box; */
+    /* box-sizing: 50px;  */
+}
+.name{
+  display: flex;
+  justify-content: space-between;
+  /* width:50%; */
+}
+.name input,.contact input{
+  width:300px;
+  height:35px;
+  margin-left: 21px;
+}
+.label{
+  display:flex;
+  justify-content: space-between;
+  /* text-align: left; */
+}
+#ln{
+  margin-right: 190px;
+}
+.contact form sup{
+  color: red;
+}
+.contact textarea{
+  width:300px;
+  height:90px;
+  margin-left: 21px;
+}
+.contact h2{
+  color:antiquewhite;
+  position:relative;
+  overflow: hidden;
+  left:1.5%;
+  margin-top: 20px;
+  font-size: xx-large;
+  width:fit-content;
+}
+.contact span{
+  color: aliceblue;
+  position:relative;
+  overflow: hidden;
+  left:1.5%;
+  font-style: oblique;
+  /* margin-bottom: 5px; */
+  font-size: large;
+  /* padding-top: 20px; */
+  width:fit-content;
+}
+.contact button{
+  width:150px;
+  height:30px;
+  position:relative;
+  overflow: hidden;
+  left:10%;
+  margin-top:10px;
+  font-size: large;
+}
+.sec2{
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  bottom: 1%;
+  margin-top: 70px;
+}
+.footer i{
+  font-size: 30px;
+  text-align: center;
+  color: blue;
+}
+.footer a{
+  margin-right: 50px;
+  border-radius: 50%;
+  padding:5px;
+}
+.copyright{
+  font-size: 20px;
+  margin-right:100px;
+}
+#menu{
+  display: none;
+  position: fixed;
+  background-color: white;
+  /* margin-top: 5px; */
+  border-radius: 10px;
+ }
+ #menu li a{
+  color: black;
+  display: block;
+ }
+ #menu li{
+  display: block;
+  position: relative;
+ }
+ #menu li a:hover{
+  cursor: pointer;
+ }
+ #a:hover #menu{
+  display: block;
+}
+#cal{
+  color: white;
+  font-size: 30px;
+  left: 70%;
+  bottom: 85%;
+  position: relative;
+  overflow: hidden;
+  width: fit-content;
+  font-style: oblique;
+}
+#cal2{
+  /* bottom: 100%; */
+  width: 250px;
+  height: 350px;
+  left: 75%;
+  /* position:relative;
+  overflow: hidden; */
+  top: -32%;
+  /* left:32.5%; */
+  /* border-radius: 10px; */
+}
